@@ -12,6 +12,8 @@ body {
 
 img {
   max-width: 100%;
+  display: block;
+  border-radius: 5px;
 }
 
 /* Grid General */
@@ -86,14 +88,22 @@ img {
   background: #b07dfb;
 }
 
+/* Content */
 .content {
   grid-area: content;
 }
 
+/* Advertisement */
 .ad {
   grid-area: ad;
+  background: #fafbfc;
+  display: grid;
+  align-content: flex-start;
+  padding: 30px;
+  gap: 30px;
 }
 
+/* Footer */
 .footer {
   grid-area: footer;
 }
